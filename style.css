@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(134, 135, 133);
+    margin: 0;
+}
+h1{
+    background-color: rgb(55, 62, 65);
+    padding:10px 20px;
+    margin: 20px;
+    border: solid white;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+}
+
+#smaller {
+    font-size: 1.3em;
+    background-color: darkgoldenrod;
+    width:50%;
+    margin:0 auto;
+}
+
+.highlight {
+    background-color: rgb(255, 0, 0);
+    color: #00B4D8;
+}
+
+.purple {
+    background-color: purple;
+}
+
+#Orange {
+    background-color: orange;
+}
