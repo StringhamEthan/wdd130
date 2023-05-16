@@ -1,0 +1,27 @@
+body {
+    background-color: aquamarine;
+}
+
+.ourimg{
+    background-color: black;
+}
+
+.ourh1{
+    background-color: olive;
+    grid-column: 2/5;
+}
+
+.ourp{
+    grid-column: 2/4;
+    background-color: blue;
+}
+footer{
+    grid-column: 1/5;
+    background-color: yellow;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
