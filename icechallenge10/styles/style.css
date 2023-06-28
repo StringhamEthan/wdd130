@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
+.grid{
+    width: 940px;
+    height: 50%;
+    margin: auto;
+    margin-top: 8%;
+    position:relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* align-items: center;
+    align-self: center;
+    align-content: center; */
+    background-color: white;
+}
+
+img{
+    height: 470px;
+    width:400px;
+}
+.name{
+    font-size: 36px;
+    font-family: 'Bacasime Antique', serif;
+}
+hr {
+    height:3px;
+    border-width:0;
+    background-color:black;
+    width: 80%;
+    margin-left: 0;
+  }
+.textarea{
+    padding-right: 60px;
+    /* padding-left: 60px; */
+    padding-bottom: 46px;
+    padding-top: 70px;
+}
+.maintext{
+    font-size: small;
+}
+.littleboxes{
+    display: grid;
+    grid-template-columns: 15px 15px 15px 15px;
+}
+
+.blackbox{
+    background-color: black;
+    height: 10px;
+    width: 10px;
+}
+.greybox{
+    background-color: gray;
+    height: 10px;
+    width: 10px;
+}
+.background{
+    height: 100%;
+    background: teal;
+    /* background-image: linear-gradient(to bottom right, green, red); */
+    /* background: linear-gradient(135, green, red); */
+}
