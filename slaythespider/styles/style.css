@@ -135,7 +135,7 @@ header {
 }
 .faqbigger{
     margin-top: 0;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
     text-align: center;
     font-size: 28px;
     color: white;
@@ -159,6 +159,8 @@ header {
     border: none;
     outline: none;
     transition: 0.4s;
+    font-family: 'Oxygen', Helvetica, sans-serif;
+    font-size: 16px;
   }
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
