@@ -122,15 +122,15 @@ header {
 .faqtext{
     text-align: center;
     align-self: center;
-    font-size: 18px;
+    margin-left: 20%;
+    margin-right: 20%;
+    /* font-size: 18px;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 100px;
-    margin-right: 100px;
     background-color: #8B956D;
     border-radius: 20px;
     padding: 5px;
-    border: 3px solid #303329;
+    border: 3px solid #303329; */
     font-family: 'Chakra Petch', Helvetica, sans-serif;
 }
 .faqbigger{
@@ -143,6 +143,40 @@ header {
     background-color: black;
     font-family: 'Oxygen', Helvetica, sans-serif;
 }
+
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #8B956D;
+    color: beige;
+    cursor: pointer;
+    padding: 18px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right:25%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #303329;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0;
+    background-color: beige;
+    display: none;
+    overflow: hidden;
+    width: 50%;
+    margin-left: 25%;
+    margin-right:25%;
+  }
+
 
 @media screen and (max-width: 900px) {
 .contentgrid{
