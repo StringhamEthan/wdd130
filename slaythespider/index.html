@@ -3,33 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Slay The Spider Homepage</title>
 </head>
 <body>
     <header>
-        <img src="images/Slay the Spider-logos_transparent.png" alt="" width="100px" height="100px">
-        <section class="headergrid">
-            <div class = "headeritem"><a href="blog.html"> Blog </a></div>
-            <div class = "headeritem"><a href="faq.html"> FAQ </a></div>
-        </section>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/Slay the Spider-logos_transparent.png" alt="Slay The Spider Logo">
+        </a>
+        <nav>
+            <a href="blog.html">Blog</a>
+            <a href="faq.html">FAQ</a>
+        </nav>
     </header>
+    <!-- <header>
+        <a id="logo_link" href="index.html">
+            <img src="images/Slay the Spider-logos_transparent.png" alt="" width="100px" height="100px">
+        </a>
+        <nav class="headergrid">
+            <a href="blog.html"> Blog </a>
+            <a href="faq.html"> FAQ </a>
+        </nav>
+    </header> -->
     <main>
         <p class="sdrawake">The Spider Awakens</p>
-        <img src="images/mainmenu.png" alt="The main menu">
-        <p class="maintext">Play as the veteran Edric Holmwoode as he burrows deep into the GREAT SPIDERS lair. Facing off against seemingly unstoppable odds, will you be able to regain Edric's honor and SLAY THE SPIDER?</p>
-        <p class="maintext">Slay the Spider is a simple to pickup, hard to master game, blending turn-based gameplay similar to XCOM and Fire Emblem with real time trap dodging and exploration. Solve difficult puzzles, defeat powerful foes, and aquire new and powerful gear.</p>
-        <img src="images/puzzleroom.png" alt="a confusing puzzle room">
+        <div class="contentgrid">
+            <img src="images/mainmenu.png" alt="The main menu" class= "mainimage">
+            <p class="maintext">Play as the veteran Edric Holmwoode as he burrows deep into the GREAT SPIDERS lair. Facing off against seemingly unstoppable odds, will you be able to regain Edric's honor and SLAY THE SPIDER?</p>
+        </div>
+        <div class="contentgrid">
+            <p class="maintext">Slay the Spider is a simple to pickup, hard to master game, blending turn-based gameplay similar to XCOM and Fire Emblem with real time trap dodging and exploration. Solve difficult puzzles, defeat powerful foes, and aquire new and powerful gear.</p>
+            <img src="images/puzzleroom.png" alt="a confusing puzzle room" class= "mainimage">
+        </div>
         <p class="bigger">FEATURES:</p>
-        <p class="maintext">Tile Based combat: maneuvering carefully, use your abilities to defeat the enemies that beset you. Make sure to manage your Action Points well, or else you may be in for a rude suprise. With deep gameplay elements such as opportunity attacks and buffs, there are infinite combinations of strategies that await you.</p>
-        <img src="images/battlepic.png" alt="a hard fought battle">
-        <p class="maintext">Real Time Gameplay: Outside of combat there are a multitude of things to do. Solve puzzles to earn new gear, dodge harrowing traps, or visit the local tavern and look for work. While you may master the turn based gameplay, you'll need to keep your reflexes sharp in Slay the Spider.</p>
-        <img src="images/traproom.png" alt="a trap room">
-        <p class="maintext">Old School Done New: While the images may make you believe the graphics for this game are strictly "old-school," players will be delighted to find a hybrid of modern animation principles mixed into a retro style. The end result leaves a nostalgic taste that still feels brand new.</p>
+        <div class="contentgrid">
+            <img src="images/NewCombat.png" alt="a hard fought battle" class= "mainimage">
+            <p class="maintext">Tile Based combat: maneuvering carefully, use your abilities to defeat the enemies that beset you. Make sure to manage your Action Points well, or else you may be in for a rude suprise. With deep gameplay elements such as opportunity attacks and buffs, there are infinite combinations of strategies that await you.</p>
+        </div>
+        <div class="contentgrid">
+            <p class="maintext">Real Time Gameplay: Outside of combat there are a multitude of things to do. Solve puzzles to earn new gear, dodge harrowing traps, or visit the local tavern and look for work. While you may master the turn based gameplay, you'll need to keep your reflexes sharp in Slay the Spider.</p>
+            <img src="images/traproom.png" alt="a trap room" class= "mainimage">
+        </div>
+        <div class="contentgrid">
+            <img src="images/healingroom.png" alt="a trap room" class= "mainimage">
+            <p class="maintext">Old School Done New: While the images may make you believe the graphics for this game are strictly "old-school," players will be delighted to find a hybrid of modern animation principles mixed into a retro style. The end result leaves a nostalgic taste that still feels brand new.</p>
+         </div>
     </main>
-    <footer>
-        <p>Developed by Technopath Games</p>
-        <p>copyright @ 2023 = Ethan Stringham</p>
-        <p><a href="site-plan.html"> Site Plan </a></p>
+    <footer class="footergrid">
+        <p class="footertext">Developed by Technopath Games</p>
+        <p class="footertext">copyright @ 2023 = Ethan Stringham</p>
+        <p class="footertext"><a href="site-plan.html" class="footerlink"> Site Plan </a></p>
 
     </footer>
 </body>
